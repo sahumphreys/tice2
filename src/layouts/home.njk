@@ -1,0 +1,36 @@
+---
+title: Homepage
+layout: base
+hero: True
+---
+
+
+<!-- Card Section Below Hero Unit -->
+<section id="info-cards" class="card-section">
+    {% for card in cards %}
+        <div class="card">
+            <i class="{{ card.icon }}"></i>
+            <h2>{{ card.title }}</h2>
+            <p>{{ card.description }}</p>
+            <a class="cta-button" href="{{ card.link }}">Find out more</a>
+        </div>
+    {% endfor %}
+</section>
+
+<!-- Information Panels Section -->
+<section id="info-panels"  class=""info-panels">
+  {% for panel in collections.infoPanels %}
+      <section class="panel">
+        <div class="panel-content">
+          <div class="panel-text">
+            <i class="fas {{panel.data.icon }} fa-3x"></i>
+            <h2>{{ panel.data.title }}</h2>
+            <p>{{ panel.templateContent | safe }}</p>
+          </div>
+          <div class="panel-image">
+            <img src="{{ panel.data.image }}" alt="{{ panel.data.imageAlt }}" />
+          </div>
+        </div>
+    </section>
+  {% endfor %}
+</section>
