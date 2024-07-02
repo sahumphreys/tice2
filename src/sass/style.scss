@@ -32,11 +32,10 @@ body {
     flex-direction: column;
 }
 
-// .wrapper {
-//     display: flex;
-//     flex-direction: column;
-//     flex-grow: 1;
-// }
+.page-container {
+    padding: 4rem;
+
+}
 
 .nav {
     background-color: #eeeeee;
@@ -381,13 +380,17 @@ body {
 }
 
 
-.module-container {
+.module-container, .theory-container {
   display: grid;
   gap: 1rem;
   grid-template-areas: 
     "sidebar"
     "content";
     grid-template-columns: 1fr 5fr;
+}
+
+.theory-container {
+    color: var(--color-primary);
 }
 
 .module-header {
@@ -416,12 +419,18 @@ body {
 
 .sidebar {
     grid-area: sidebar;
-    background-color: #f4f4f4;width: 400px;
+    background-color: #f4f4f4;
+    width: 400px;
     padding: 2rem;
     margin: 1rem;
     border: 2px solid var(--color-lightGrey);
     border-radius: 20px;
     height: fit-content;
+}
+
+.theory-container > .sidebar {
+    background-color: #f4f4ff;
+    border: 2px solid var(--color-primary);
 }
 
 .content {

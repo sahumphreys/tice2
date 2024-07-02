@@ -16,6 +16,11 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("modules", function (collectionApi) {
         return collectionApi.getFilteredByGlob("./src/modules/*.md");
     });
+
+    eleventyConfig.addCollection("theory", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/pages/theory/*.md")
+            .sort((a,b) => a.data.position - b.data.position);
+    });
     
    
 
