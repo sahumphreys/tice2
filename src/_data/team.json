@@ -1,0 +1,25 @@
+{
+    "items" : [
+    {
+        "name": "Dr. Sue Sentance",
+        "description": "Sue leads RPERC",
+        "image": "/assets/images/team/sue.png",
+        "imageAlt": "Sue Sentance picture",
+        "email": "js@example.com"
+    },
+    {
+        "name": "Simon Humphreys",
+        "description": "Computing At School, Chair Education and Community Board",
+        "image": "/assets/images/team/sah.jpg",
+        "imageAlt": "Simon Humphreys picture",
+        "email": "sahumphreys@protonmail.com"
+    },
+    {
+        "name": "Bonnie Shepherd",
+        "description": "Raspberry Pi Foundation",
+        "image": "/assets/images/team/sue.png",
+        "imageAlt": "Bonnie Shepherd picture",
+        "email": "bshepherd@rpi.org"
+    }
+    ]
+}

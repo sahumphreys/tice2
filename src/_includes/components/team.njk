@@ -1,0 +1,13 @@
+
+<h2>Meet the team</h2>
+<div class="team cards-container">
+    {% for person in team.items %}
+    <div class="card">
+        <h4 class="card-title">{{ person.name }}</h4>
+        <p class="card-description">
+        <img class="card-image" src="{{ person.image }}" alt="{{ person.imageAlt }}" /><br />
+        {{ person.description }}
+    </p>
+    </div>
+    {% endfor %}
+</div>

@@ -1,8 +1,9 @@
 ---
 title: Enrollment Information
 description: How to register for the course
+image: "assets/images/register.jpg"
 ---
 
 Find out how to enroll and start your journey with us.
 
-<button class="cta-button">Register</button>
+<a class="button outline primary">Register</a>

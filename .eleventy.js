@@ -12,17 +12,17 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addCollection("infoPanels", function(collectionApi) {
         return collectionApi.getFilteredByGlob("./src/pages/features/*.md");
     });
+
+    eleventyConfig.addCollection("modules", function (collectionApi) {
+        return collectionApi.getFilteredByGlob("./src/modules/*.md");
+    });
     
-    eleventyConfig.addCollection("infoCards", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/pages/homepage-cards/*.md");
-      });
+   
 
     return {
         dir: {
             input: 'src',
-            output: 'public',
-            layouts: 'layouts',
-            pages: 'pages'
+            output: 'public'
         },
         
     };

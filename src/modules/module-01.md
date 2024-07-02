@@ -1,10 +1,13 @@
-<!-- ![UX - User Experience](images/12650723674_d5c85af332_k.jpg ':class=banner-image') -->
+---
+title: What is Action Research?
+layout: layouts/module
+---
+
 
 <div class="abstract">
 Action research is ... <em>"a form of self-reflective enquiry undertaken by participants in social situations in order to improve the rationality and justice of their own practices, their understanding of these practices, and the situations in which the practices are carried out.</em>" (Carr and Kemmis 1986: 162)
 </div>
 
----
 
 **Action Research** is also known as **practitioner research**, a research-oriented activity designed to improve current practice.  
 
@@ -37,7 +40,7 @@ Action research consists of a number of stages:
 
 Strictly speaking this is a cyclic, or spiral, endeavour and ideally collaborative in that involves other members of your department or faculty but can also be with other teachers in other schools.
 
-## Questions  
+## Questions
 
 <div class="accordion">
 

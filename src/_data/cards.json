@@ -2,25 +2,25 @@
     {
         "title": "Learning Materials",
         "description": "Access a rich library of articles, papers, and resources to deepen your understanding.",
-        "icon": "fas fa-file-alt fa-3x",
-        "link": "/modules"
+        "icon": "fas fa-file-alt fa-2x",
+        "link": "/resources/"
     },
     {
-        "title": "Video Lectures",
-        "description": "Watch engaging video lectures from experts in the field.",
-        "icon": "fas fa-video fa-3x",
+        "title": "Video Support",
+        "description": "Regular webinars and course videos to support your throughout the project.",
+        "icon": "fas fa-video fa-2x",
         "link": "#"
     },
     {
         "title": "Practical Activities",
-        "description": "Participate in hands-on activities to apply what you learn.",
-        "icon": "fas fa-tasks fa-3x",
+        "description": "Participate in hands-on activities to apply what you learn culminating in a final published report.",
+        "icon": "fas fa-tasks fa-2x",
         "link": "#"
     },
     {
         "title": "Community Engagement",
         "description": "Join a community of educators to share experiences and collaborate.",
-        "icon": "fas fa-users fa-3x",
+        "icon": "fas fa-users fa-2x",
         "link": "#"
     }
 ]

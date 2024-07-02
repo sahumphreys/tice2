@@ -1,0 +1,34 @@
+{% extends "layouts/page.njk" %}
+
+{% block content %}
+{% set modules = collections.modules %}
+<div class="module-container">
+    <div class="sidebar">
+        <ul>
+            {% for module in modules %}
+            <li><a href="{{ module.url }}">{{ loop.index }} - {{ module.data.title }}</a></li>
+            {% endfor %}
+        </ul>    
+    </div>
+    
+    <div class="main-content">
+        <h1>{{ title }}</h1>
+        {% if bannerImage %}
+        <div class="module-header">
+            <div class="image-column">
+                <img src="{{ bannerImage }}" />
+            </div>
+        </div>
+        {% endif %}
+            <!-- <div class="button-column">
+                <a class="button">Notes</a>
+                <a class="button">Slide deck</a>
+                <a class="button">Questions</a>
+                <a class="button">Downloads</a>
+                <a class="button">Recommended Reading</a>
+            </div> -->
+        {{ content | safe }}
+    </div>
+    
+</div>
+{% endblock %}

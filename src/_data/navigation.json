@@ -1,0 +1,29 @@
+{
+    "items": [
+        {
+            "title": "Modules",
+            "url": "/pages/modules/"
+        },
+        {
+            "title": "Schedule",
+            "url": "/pages/schedule/"
+        },
+        {
+            "title": "Blog",
+            "url": "/blog/"
+        },
+        {
+            "title": "Theory",
+            "url": "/pages/theory/"
+        },
+
+        {
+            "title": "About",
+            "url": "/pages/about"
+        },
+        {
+            "title": "Contact",
+            "url": "/pages/contact/"
+        }
+    ]
+}
