@@ -1,6 +1,6 @@
 ---
 title:  About TICE
-layout: layouts/page.njk
+layout: layouts/about.njk
 ---
 
 The Teacher Inquiry in Computing education (TICE) project provides classroom teachers with the opportunity to work with experienced researchers and academics to carry out their own research.  The goal is to enable teachers to take a deep dive into a curriculum topic, a pedagogical approach, or a new resource or to address a wider issue such as gender diversity or accessibility to inform a change in practice.

@@ -1,0 +1,15 @@
+{% extends "layouts/page.njk" %}
+
+{% block content %}
+<div class="module-container">
+    <div class="sidebar">
+        <img src="{{ image }}" >  
+    </div>
+    
+    <div class="main-content">
+        <h1>{{ title }}</h1>
+        {{ content | safe }}
+    </div>
+</div>
+
+{% endblock %}
