@@ -1,6 +1,6 @@
 ---
 title: Data Collection
-layout: layouts/module
+position: 50
 ---
 
 <div class="abstract">

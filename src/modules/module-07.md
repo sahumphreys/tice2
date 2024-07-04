@@ -1,6 +1,6 @@
 ---
 title: Writing Up
-layout: layouts/module
+position: 70
 ---
 
 <div class="abstract">

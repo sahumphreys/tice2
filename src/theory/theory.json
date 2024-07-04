@@ -1,0 +1,5 @@
+{ 
+    "layout": "layouts/theory.njk",
+    "tags": ["theory"],
+    "permalink": "/theory/{{ title | slug }}/"
+}

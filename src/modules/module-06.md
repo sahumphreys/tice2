@@ -1,6 +1,6 @@
 ---
 title: Data Analysis
-layout: layouts/module
+position: 60
 ---
 
 <div class="abstract">

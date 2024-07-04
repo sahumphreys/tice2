@@ -2,7 +2,7 @@
     "items": [
         {
             "title": "Modules",
-            "url": "/pages/modules/"
+            "url": "/modules/"
         },
         {
             "title": "Schedule",
@@ -14,7 +14,7 @@
         },
         {
             "title": "Theory",
-            "url": "/pages/theory/"
+            "url": "/theory/"
         },
 
         {

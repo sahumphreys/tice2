@@ -1,6 +1,6 @@
 ---
 title: Planning the intervention
-layout: layouts/module
+position: 40
 ---
 
 # Planning the intervention

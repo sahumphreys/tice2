@@ -1,6 +1,6 @@
 ---
 title: Formulating the question
-layout: layouts/module
+position: 30
 ---
 
 <div class="abstract">

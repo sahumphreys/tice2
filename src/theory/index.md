@@ -1,10 +1,9 @@
 ---
 title: Preface
 layout: layouts/theory.njk
+permalink: "theory/index.html"
 position: 1
 ---
-
-
 
 To support in your project some additional reading is provided here on the practice and theory of action research.  We'll consider some of the common approaches to the methodology and how it has been used to improve practice in both educational and non-educational settings.
 

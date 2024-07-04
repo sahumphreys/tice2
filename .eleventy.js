@@ -1,34 +1,34 @@
 module.exports = function (eleventyConfig) {
 
-    /* WATCH and PASS THROUGHS */
+    /*-----> WATCH and PASS THROUGHS <----------------------------------*/
     eleventyConfig.addWatchTarget("./src/sass");
     eleventyConfig.addPassthroughCopy("./src/css"); 
     eleventyConfig.addPassthroughCopy("./src/assets");
 
-    /* PLUGINS */
-    eleventyConfig.addPlugin( require('@11ty/eleventy-navigation') );
-
-    /* COLLECTIONS */
+    /*-----> COLLECTIONS <--------------------------------------------- */
     eleventyConfig.addCollection("infoPanels", function(collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/pages/features/*.md");
+        return collectionApi.getFilteredByGlob("./src/pages/features/*.md")
+        .sort((a,b) => a.data.position - b.data.position)
     });
 
-    eleventyConfig.addCollection("modules", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/modules/*.md");
-    });
+    // module pages collection, sorted by position front matter
+    eleventyConfig.addCollection("modulePagesSorted", function(collectionApi) {
+        return collectionApi.getFilteredByTag("module").sort((a, b) => {
+          return a.data.position - b.data.position;
+        });
+      });
 
-    eleventyConfig.addCollection("theory", function (collectionApi) {
-        return collectionApi.getFilteredByGlob("./src/pages/theory/*.md")
-            .sort((a,b) => a.data.position - b.data.position);
-    });
-    
+    // theory pages collection, sorted by position front matter
+    eleventyConfig.addCollection("theoryPagesSorted", function(collectionApi) {
+        return collectionApi.getFilteredByTag("theory").sort((a, b) => {
+          return a.data.position - b.data.position;
+        });
+      });
    
-
     return {
         dir: {
             input: 'src',
-            output: 'public'
-        },
-        
+            output: 'public',
+        },       
     };
 }
