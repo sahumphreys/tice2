@@ -1,5 +1,4 @@
 {
     "layout": "layouts/module.njk",
-    "tags": ["module"],
-    "permalink": "/modules/{{ title | slug }}/index.html"
+    "tags": ["module"]
 }

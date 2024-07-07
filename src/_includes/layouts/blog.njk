@@ -1,0 +1,24 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<div class="page-container">
+    
+    <h2>Blog Posts</h2>
+    {{ content | safe}}
+    <div class="blog-container">
+        {% for post in collections.blog %}
+        <div class="blog-card">
+            <div class="blog-card-content">
+                <h3 class="blog-card-title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                <p class="post-date">{{ post.date | postDate }}</p>
+                <p class="blog-card-description">{{ post.data.description }}</p>
+                <div class="blog-card-button">
+                    <a href="{{ post.url}}">Read more</a>
+                </div>    
+            </div> 
+        </div>
+
+        {% endfor %}
+    </div>
+</div>
+    {% endblock %}

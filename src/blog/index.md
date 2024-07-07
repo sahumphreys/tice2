@@ -1,7 +1,7 @@
 ---
 title: Blog Homepage
 description: Home page for the TICE blogs
-layout: layouts/page
+layout: layouts/blog
 ---
 
-Our most recent blogs on action research and the TICE project
+Follow along with the latest developments of the current project via the posts here

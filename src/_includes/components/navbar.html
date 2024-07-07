@@ -1,0 +1,25 @@
+<nav class="nav">
+    <div class="nav-left">
+        {% for item in navigation.items %}
+            <a class="nav-item" href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.title }}</a>
+        {% endfor %}
+        
+    </div>
+    <div class="nav-center">
+        <a class="brand" href="/">
+            <img style="width:200px; height: auto;" src="/assets/images/image.svg" alt="Logo" />
+        </a>
+    </div>
+    <div class="nav-right">  
+        <a class="social-icon" href="#" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a class="social-icon" href="#" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a class="social-icon" href="#" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="{{ site.registrationForm }}"" target="_blank"><button class="cta-button">Register</button></a>
+    </div>
+</nav>

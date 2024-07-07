@@ -1,7 +1,7 @@
 
 <h2>Meet the team</h2>
 <div class="team cards-container">
-    {% for person in team.items %}
+    {% for person in team | filterByVolunteerStatus(false) %}
     <div class="card">
         <h4 class="card-title">{{ person.name }}</h4>
         <p class="card-description">
@@ -9,5 +9,14 @@
         {{ person.description }}
     </p>
     </div>
+    {% endfor %}
+</div>
+
+<div>
+    <h2>Mentors</h2>
+    {% for person in team | filterByVolunteerStatus(true) %}
+    <ul>
+        <li>{{ person.name }} ({{ person.description }})</li>
+    </ul>
     {% endfor %}
 </div>

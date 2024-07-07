@@ -5,18 +5,13 @@
             "url": "/modules/"
         },
         {
-            "title": "Schedule",
-            "url": "/pages/schedule/"
+            "title": "Theory",
+            "url": "/theory/"
         },
         {
             "title": "Blog",
             "url": "/blog/"
         },
-        {
-            "title": "Theory",
-            "url": "/theory/"
-        },
-
         {
             "title": "About",
             "url": "/pages/about"

@@ -1,8 +1,8 @@
 ---
 title: Schedule
 description: Calendar of events
-layout: layouts/schedule.njk
 image: /assets/images/calendar.png
+position: 5
 ---
 
 <div class="abstract">
