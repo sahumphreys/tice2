@@ -1,6 +1,6 @@
 [build]
   publish = "public" # This is the default output folder for 11ty
-  command = "npx eleventy" # This is the command Netlify will run to build your site
+  command = "node_modules/.bin/eleventy"
 
 [context.production.environment]
   NODE_ENV = "production"
