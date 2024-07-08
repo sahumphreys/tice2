@@ -2,33 +2,20 @@
 
 {% block content %}
 {% set theory_topics = collections.theoryPagesSorted %}
-<div class="theory-container">
-    <div class="sidebar">
-        <ul>
-            {% for topic in theory_topics %}
-            <li><a href="{{ topic.url }}">{{ loop.index }} - {{ topic.data.title }}</a></li>
-            {% endfor %}
-        </ul>    
-    </div>
-    
-    <div class="main-content">
-        <h1>{{ title }}</h1>
-        {% if bannerImage %}
-        <div class="module-header">
-            <div class="image-column">
-                <img src="{{ bannerImage }}" />
-            </div>
+<div class="container">
+    <div class="row">
+        <div class="col-3 sidebar-menu">
+            <ol>
+                {% for topic in theory_topics %}
+                <li><a href="{{ topic.url }}">{{ topic.data.title }}</a></li>
+                {% endfor %}
+            </ol>  
         </div>
-        {% endif %}
-            <!-- <div class="button-column">
-                <a class="button">Notes</a>
-                <a class="button">Slide deck</a>
-                <a class="button">Questions</a>
-                <a class="button">Downloads</a>
-                <a class="button">Recommended Reading</a>
-            </div> -->
-        {{ content | safe }}
+
+        <div class="col-9 text-content">
+            <h1>{{ title }}</h1>
+            {{ content | safe }}
+        </div>
     </div>
-    
 </div>
 {% endblock %}

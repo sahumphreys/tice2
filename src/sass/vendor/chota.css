@@ -724,15 +724,15 @@ button:active:not(:disabled) {
       -ms-flex-align: center;
           align-items: center;
   padding: 1rem 2rem;
-  color: var(--color-darkGrey);
+  color: var(--color-primary);
 }
 .nav [aria-current="page"]:not(.button),
 .nav .active:not(.button) {
   color: #000; /* fallback */
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 .nav .brand {
-  font-size: 1.75em;
+  font-size: 1.75em; 
   padding-top: 0;
   padding-bottom: 0;
 }

@@ -2,7 +2,28 @@
 
 {% block content %}
 {% set modules = collections.modulePagesSorted %}
-<div class="module-container">
+<div class="container">
+    <div class="row">
+        <div class="col-3 sidebar-menu">
+            <!-- <h3>Contents</h3> -->
+            <ol>
+                {% for module in modules %}
+                <li><a href="{{ module.url }}">{{ module.data.title}}</a></li>
+                {% endfor %}
+            </ol>
+        </div>
+        <div class="col-9 text-content">
+            <h1>{{ title }}</h1>
+            {% if bannerImage %}
+            <div class="image-column">
+                <img src="{{ bannerImage }}" alt="banner image">
+            </div>
+            {% endif %}
+            {{ content | safe }}
+        </div>
+    </div>
+</div>
+<!-- <div class="module-container">
     <div class="sidebar">
         <ul>
             {% for module in modules %}
@@ -20,15 +41,9 @@
             </div>
         </div>
         {% endif %}
-            <!-- <div class="button-column">
-                <a class="button">Notes</a>
-                <a class="button">Slide deck</a>
-                <a class="button">Questions</a>
-                <a class="button">Downloads</a>
-                <a class="button">Recommended Reading</a>
-            </div> -->
+            
         {{ content | safe }}
     </div>
     
-</div>
+</div> -->
 {% endblock %}

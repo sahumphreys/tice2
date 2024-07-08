@@ -1,7 +1,7 @@
 <nav class="nav">
     <div class="nav-left">
         {% for item in navigation.items %}
-            <a class="nav-item" href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.title }}</a>
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.title }}</a>
         {% endfor %}
         
     </div>

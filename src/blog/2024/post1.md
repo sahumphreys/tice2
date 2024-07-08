@@ -14,9 +14,9 @@ For many teachers, the opportunity to carry out a detailed study of an aspect of
 
 ## Computing as a school subject in England
 
-Computing, as a subject in the school curriculum, is relatively new. It is not ten years since the government moved Information Communication Technology (ICT) to Computing. It was a bold move and not without its critics. The challenge was to equip teachers with the skills and knowledge they needed to deliver this new subject effectively. Professional development, or better professional learning became the order of the day. Subject knowledge was key, as the new curriculum included many aspects of computer science that were new to the existing cohort of teachers, in particular programming knowledge and skills.
+Computing, as a subject in the school curriculum, is relatively new. It is not ten years since the government moved **Information Communication Technology** (ICT) to **Computing**. It was a bold move and not without its critics. The challenge was to equip teachers with the skills and knowledge they needed to deliver this new subject effectively. Professional development, or better professional learning became the order of the day. Subject knowledge was key, as the new curriculum included many aspects of computer science that were new to the existing cohort of teachers, in particular programming knowledge and skills.
 
-Ten years on, we are better equipped with a growing bank of resources to use in our classrooms: the subject association (Computing At School), a National Centre for Computing and many organisations and partners, such as the Raspberry Pi Foundation committed to supporting teachers of Computing.
+Ten years on, we are better equipped with a growing bank of resources to use in our classrooms: the subject association ([Computing At School]({{ site.casweb}})), a [National Centre for Computing](https://www.teachcomputing.org) and many organisations and partners, such as the [Raspberry Pi Foundation](https://www.raspberrypi.org/) committed to supporting teachers of Computing.
 
 However, that opportunity to reflect, take stock, try something new, evaluate its success and collaborate with others is rare. Much of the professional development opportunities focus on subject knowledge and to be truly effective, they need to be earthed and situated in the context of the teachers’ own classroom.
 
