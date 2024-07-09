@@ -1,10 +1,12 @@
 ---
 title: Empowering teachers to conduct action research
 layout: layouts/page.njk
-description: The opportunity to reflect, take stock, try something new, evaluate its success and collaborate with others is rare. Much of the professional development opportunities focus on subject knowledge and to be truly effective, they need to be earthed and situated in the context of the teachers’ own classroom.
+description: The opportunity to reflect, take stock, try something new, evaluate its success and collaborate with others is rare .... 
 date: 2024-07-06
 tags: ['blog']
 ---
+
+*{{ date | postDate }}*
 
 > **Research** (noun): a detailed study of a subject, especially in order to discover (new) information or reach a (new) understanding. (Cambridge Dictionary)
 

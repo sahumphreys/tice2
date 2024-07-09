@@ -1,6 +1,7 @@
 ---
 title: The Research Process
 position: 20
+tags: ['module']
 ---
 
 
@@ -138,6 +139,9 @@ A final but important phase of research is to share and disseminate your finding
 </details>
 </details>
 </div>
+
+## Resources
+
 
 ## Further Reading  
 

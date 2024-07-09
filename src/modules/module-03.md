@@ -141,12 +141,64 @@ Developing the right research question is a critical first step in the research 
 
 ## Questions
 
-Ask some questions based on improving possible research questions
+<div class="accordion">
+<details>
+<summary>How do you determine if your research topic is both feasible and novel?</summary>
+Identifying a feasible and novel research topic is crucial for effective action research. Feasibility involves assessing whether the research can be completed within the available time frame and resources, and whether it matches your own abilities. Novelty, on the other hand, ensures that the research brings new insights or approaches, either to you or the wider community.
 
+- Assess your time and resources.
+- Match the topic to your abilities.
+- Ensure the topic brings new insights or approaches.
+</details>
+
+
+<details>
+<summary>What strategies can be employed to effectively brainstorm and map out a research topic?</summary>
+
+Brainstorming and concept mapping are valuable techniques to develop a research topic. Brainstorming encourages quantity and creativity in idea generation without worrying about structure, while concept mapping organizes these ideas into related subtopics, highlighting connections and relationships between concepts.
+
+- Use brainstorming for idea generation.
+- Apply concept mapping to organize and connect ideas.
+</details>
+
+<details>
+<summary>How can literature reviews enhance the process of refining a research question?</summary>
+
+Literature reviews provide insights into previous research on a topic, which can help narrow your focus and refine your research question. Accessing research literature, despite potential barriers like paywalls, can offer valuable background information and highlight gaps in existing knowledge that your research could address.
+
+- Conduct literature reviews to gain insights and refine your question.
+- Explore various sources, including free publications and academic papers.
+
+</details>
+
+<details>
+<summary>In what ways can the PICOT framework be utilized to structure a precise research question?</summary>
+
+The PICOT framework helps structure a research question by specifying key components: Population, Intervention, Comparison, Outcome, and Time. This framework ensures the question is specific and measurable, which is essential for clarity and effective research design.
+
+- Use PICOT to define Population, Intervention, Comparison, Outcome, and Time.
+- Ensure your research question is specific and measurable.
+</details>
+
+<details>
+<summary>How can collaboration with experts and colleagues improve the development of a research question?</summary>
+
+Engaging with experts, mentors, and colleagues can provide additional perspectives and feedback on your research question. Their input can help refine and clarify your question, ensuring it is relevant, feasible, and novel. Collaborative discussions can also offer new ideas and insights that you might not have considered.
+
+- Seek feedback and input from experts and colleagues.
+- Use collaborative discussions to refine and clarify your research question.
+
+</details>
+</div>
+
+## Resources
+
+- [Research Question Planning](\assets\docs\Research_Project_Form.docx)
+ 
 ## ACTIVITY
 
 Make a copy of the Research Planning document.  Complete and share with your supervisor/helper.
 
-[Research Question Planning](\assets\docs\Research_Project_Form.docx ':class=button-rounded')
+[Research Question Planning](\assets\docs\Research_Project_Form.docx)
 
 ## Further reading

@@ -6,6 +6,8 @@ date: 2024-08-15
 tags: ['blog']
 ---
 
+*{{ date | postDate }}*
+
 Over the past eight months a team of teachers have been using Action Research to reflect on an aspect of their teaching.  There has been a huge variety in the nature of the topics they have been investigating covering both primary and secondary education.
 
 The [final report](#) has now been published.

@@ -1,6 +1,7 @@
 const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require('markdown-it-footnote');
+const markdownItAttrs = require('markdown-it-attrs');
 
 
 module.exports = function (eleventyConfig) {
@@ -9,7 +10,7 @@ module.exports = function (eleventyConfig) {
     html: true,
     breaks: true,
     linkify: true,
-  }).use(markdownItFootnote);
+  }).use(markdownItFootnote).use(markdownItAttrs);
 
   eleventyConfig.setLibrary("md", markdownLib);
 

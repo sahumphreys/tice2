@@ -6,11 +6,11 @@
     <div class="row">
         <div class="col-3 sidebar-menu">
             <!-- <h3>Contents</h3> -->
-            <ol>
+            <ul>
                 {% for module in modules %}
                 <li><a href="{{ module.url }}">{{ module.data.title}}</a></li>
                 {% endfor %}
-            </ol>
+            </ul>
         </div>
         <div class="col-9 text-content">
             <h1>{{ title }}</h1>

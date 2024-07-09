@@ -4,6 +4,7 @@ description: Homepage for the modules
 permalink: /modules/index.html
 bannerImage: "/assets/images/welcome.png"
 position: 1
+eleventyExcludeFromCollections: true
 ---
 
 The [Raspberry Pi Computing Education Research Centre](http://computingeducationresearch.org), together with [Computing At School](https://www.computingatschool.org.uk), have established a partnership that brings together teachers who are interested in participating in classroom-based research projects.

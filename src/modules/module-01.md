@@ -8,7 +8,6 @@ position: 10
 Action research is ... <em>"a form of self-reflective enquiry undertaken by participants in social situations in order to improve the rationality and justice of their own practices, their understanding of these practices, and the situations in which the practices are carried out.</em>" (Carr and Kemmis 1986: 162)
 </div>
 
-
 **Action Research** is also known as **practitioner research**, a research-oriented activity designed to improve current practice.  
 
 Generally it can be defined as:
@@ -122,12 +121,11 @@ Strictly speaking this is a cyclic, or spiral, endeavour and ideally collaborati
 
 <div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1Wcq8Oj8YkEWHkNDnOv2KB9AcZiaHWSucsxc_ZNVJ2JY/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
-## Supplemental Materials  
-<!-- [Elements of User Experience by Jesse James Garrett](https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf) -->
-<!-- <div class="responsive-container"><iframe src="https://docs.google.com/viewer?url=https://qofr.files.wordpress.com/2016/11/q-of-r-presentation-11.pdf&embedded=true" style="width:780px; height:585px;" frameborder="0"></iframe></div> -->
+## Resources
+
 
 ## Downloads
-<!-- [Course Overview](https://sso.canvaslms.com/courses/1924881/files/folder/Downloads/Course%20Overview)   -->
+
 
 ## Recommended Reading  
 
