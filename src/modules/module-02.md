@@ -1,6 +1,7 @@
 ---
 title: The Research Process
 position: 20
+slidesId: 1qfyhy5Ib2Pt37qnQrOeSanX4vKUzmFzPuoWV-H4Rq_4
 tags: ['module']
 ---
 
@@ -68,8 +69,8 @@ Step back from the results of the current research cycle and consider the succes
 A final but important phase of research is to share and disseminate your findings. It allows your peers to learn from you work, and develop their own project, building on what you have done. The step also helps reinforce what you have learnt from the process and to empower you to continue your research.
 
 ## Presented Slides  
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1qfyhy5Ib2Pt37qnQrOeSanX4vKUzmFzPuoWV-H4Rq_4/embed?slide=id.p?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
 
+{% embedGoogleSlides slidesId %}
 
 ## Questions
 
@@ -140,16 +141,4 @@ A final but important phase of research is to share and disseminate your finding
 </details>
 </div>
 
-## Resources
-
-
-## Further Reading  
-
-<div class="card-container">
-
-- <a target="_blank" href="\assets\docs\practitioner-research-for-teachers-ch5.pdf">Practitioner Research for Teachers</a> &nbsp; <i class="fas fa-file-pdf"></i>
-
-- <a target="_blank" href="assets\docs\EEF_DIY_Evaluation_Guide_(2013).pdf">DIY Evaluation Guide</a> &nbsp; <i class="fas fa-file-pdf"></i>
-
-</div>
 

@@ -2,10 +2,13 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const markdownItFootnote = require('markdown-it-footnote');
 const markdownItAttrs = require('markdown-it-attrs');
-
+const markdownHighlighter = require('@11ty/eleventy-plugin-syntaxhighlight');
+const pluginMermaid = require("@kevingimbel/eleventy-plugin-mermaid");
 
 module.exports = function (eleventyConfig) {
 
+
+  /* -----> PLUGINS <------------------------------------------------ */
   let markdownLib = markdownIt({
     html: true,
     breaks: true,
@@ -13,6 +16,23 @@ module.exports = function (eleventyConfig) {
   }).use(markdownItFootnote).use(markdownItAttrs);
 
   eleventyConfig.setLibrary("md", markdownLib);
+
+  eleventyConfig.addPlugin(markdownHighlighter);
+
+  eleventyConfig.addPlugin(pluginMermaid, {
+    mermaid_config: {
+      startOnLoad: true,
+      theme: 'forest',
+      themeVariables: {
+        background: '#336699',
+        fontFamily: 'Segoe UI',
+        fontSize: 8,
+        primaryBorderColor: '#7C0000',
+      }
+    }
+  });
+
+  
 
   /*-----> WATCH and PASS THROUGHS <----------------------------------*/
   eleventyConfig.addWatchTarget("./src/sass");
@@ -39,12 +59,6 @@ module.exports = function (eleventyConfig) {
     });
   });
 
-  // bloc collection, sorted by date
-  // eleventyConfig.addCollection("blog", collection => {
-  //     // using spread syntax to copy original array of blog posts and reverse that order
-  //     return [...collection.getFilteredByGlob('.src/blog/**/*.md')].reverse();
-  //   });
-
   /* FILTERS */
 
   //Date Clean up
@@ -55,6 +69,24 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("filterByVolunteerStatus", function (team, isVolunteer) {
     return team.filter(person => person.volunteer === isVolunteer);
   });
+
+  /* SHORTCODES */
+  eleventyConfig.addShortcode("embedGoogleSlides", function (slideId, slideStart = false, slideLoop = false, slideDelay = 3000) {
+    const start = slideStart ? 'true' : false;
+    const loop = slideLoop ? 'true' : false;
+
+    return `<div class="video-container-16by9">
+            <iframe src="https://docs.google.com/presentation/d/${slideId}/embed?slide=id.p&start=${start}&loop=${loop}&delay=${slideDelay}"
+            frameborder="0"
+            width="780"
+            height="585"
+            allowfullscreen="true"
+            mozallowfullscreen="true"
+            webkitallowfullscreen="true">
+            </iframe>
+            </div>`
+  });
+
 
   return {
     markdownTemplateEngine: 'njk',

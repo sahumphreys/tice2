@@ -46,12 +46,3 @@ We have created a template for you to use:
 
 Use [this example](https://drive.google.com/file/d/1fU0GX97yBL0Yo4mz4qXE1yFFMJFweogq/view ':include') to give you inspiration. 
 
-## Presented Slides  
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1kDfpEqnSc7kNN4d7aJGJqx75gUUAGO9bKGcdhyxVHZ8/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
-## Supplementary Materials
-
-## ACTIVITY
-
-## Required reading
-

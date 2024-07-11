@@ -136,11 +136,3 @@ These, in turn can be grouped into categories:
 
 [Find out more](https://learningforaction.com/analyzing-qualitative-data ':class=button')
 
-## Presented Slides  
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/13ppieXC91z-TNFfJRAzGOmdlu6yXzWyaK94KfLFNpWw/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
-## Supplementary Materials
-
-## ACTIVITY
-
-## Required reading

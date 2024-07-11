@@ -3,6 +3,7 @@ title: Schedule
 description: Calendar of events
 image: /assets/images/calendar.png
 position: 5
+mermaid: true
 ---
 
 <div class="abstract">
@@ -15,6 +16,43 @@ During the first term there will be:
 - a monthly "How is it going?" meeting
 - reading
 - activities to consolidate your research
+
+
+<!-- ```mermaid
+gantt
+  title TICE Project Timeline
+  dateFormat  YYYY-MM
+  section Planning
+  Register Interest :a1, 2024-08, 30d
+  Orientation :a2, 2024-09, 30d
+  Identify Research Topic :a3, 2024-10, 14d
+  Literature Review         :a4, after a3, 14d
+  Develop Research Questions :a5, after a4, 14d
+  Discuss with Mentors :a6, after a3, 14d
+  Plan Intervention         :a8, after a6, 30d
+
+  section Implementation
+  Implement Intervention    :b1, 2024-08-15, 30d
+  Monitor Implementation    :b2, 2024-08-15, 30d
+
+  section Data Collection
+  Collect Baseline Data     :c1, 2024-08-01, 7d
+  Collect Midpoint Data     :c2, 2024-09-01, 7d
+  Collect Final Data        :c3, 2024-09-30, 7d
+
+  section Data Analysis
+  Analyze Baseline Data     :d1, 2024-08-08, 7d
+  Analyze Midpoint Data     :d2, 2024-09-08, 7d
+  Analyze Final Data        :d3, 2024-10-07, 14d
+
+  section Reporting
+  Prepare Initial Findings  :e1, 2024-10-21, 7d
+  Draft Final Report        :e2, 2024-10-28, 14d
+  Revise Report Based on Feedback :e3, 2024-11-11, 7d
+  Submit Final Report       :e4, 2024-11-18, 7d
+  Present Findings to CAS Conference :e5, 2025-07-10, 1d  
+``` -->
+
 
 
 Please note, the deadline for submission of the final report for inclusion in the final report is **{{ site.deadline}}**

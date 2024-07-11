@@ -1,16 +1,16 @@
 <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZgttRiEIJCzCpKVidCjvKUEg_Y3VvnX_o2l_ZmYBaxdarDg/viewform?embedded=true" width="640" height="1199" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
-<form class="form" name="contact" action="/success" method="POST" data-netlify="true">
+<form class="form" name="contact" style="width:50vw; padding: 1rem;" action="/success" method="POST" data-netlify="true">
     <div class="form__section">
-      <label class="form__label" for="yourName">Name</label>
-      <input class="form__input" name="name" type="text" id="yourName" required="true">
+      <label for="yourName">Name:</label>
+      <input name="name" type="text" id="yourName" required="true">
     </div>
     <div class="form__section">
-      <label class="form__label" for="yourEmail">Email</label>
-      <input class="form__input" name="email" type="email"  id="yourEmail" required="true">
+      <label for="yourEmail">Email:</label>
+      <input name="email" type="email"  id="yourEmail" required="true">
     </div>
     <div class="form__section">
-      <label class="form__label" for="message">Message</label>
-      <textarea class="form__input" name="message" id="message" rows="4" required="true"></textarea>
+      <label for="message">Message</label>
+      <textarea name="message" id="message" rows="4" required="true"></textarea>
     </div>
-      <button class="form__button" type="submit">Let's talk</button>
+      <button class="button primary" style="margin-top:1rem;" type="submit">Let's talk</button>
   </form>

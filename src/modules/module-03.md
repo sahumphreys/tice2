@@ -1,5 +1,6 @@
 ---
 title: Formulating the question
+slidesId: 1yXfq6VNdGjJLYx4-eFSeKjYIwaEiB_NQMu_CASM9GDE
 position: 30
 ---
 
@@ -62,6 +63,7 @@ For example, with the topic **Enhancing Programming Skills** one might come up w
 
 ![](/assets/images/enhancing_programming_skills_cm.jpg)
 
+Other concepts maps are available [here](/pages/concept_maps/concept_map)
 
 ## Literature Review
 
@@ -135,10 +137,6 @@ Developing the right research question is a critical first step in the research 
 - Make the research question as specific and concise as possible to ensure clarity. Use a framework such as PICOT to help.
 - Aside from doing a literature review, seek the input of experts in the field, mentors, and colleagues. 
 
-## Slidedeck
-
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1yXfq6VNdGjJLYx4-eFSeKjYIwaEiB_NQMu_CASM9GDE/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
 ## Questions
 
 <div class="accordion">
@@ -191,14 +189,10 @@ Engaging with experts, mentors, and colleagues can provide additional perspectiv
 </details>
 </div>
 
-## Resources
 
-- [Research Question Planning](\assets\docs\Research_Project_Form.docx)
- 
 ## ACTIVITY
 
 Make a copy of the Research Planning document.  Complete and share with your supervisor/helper.
 
 [Research Question Planning](\assets\docs\Research_Project_Form.docx)
 
-## Further reading

@@ -1,12 +1,15 @@
 ---
 title: What is Action Research?
 position: 10
+slidesId: 1Wcq8Oj8YkEWHkNDnOv2KB9AcZiaHWSucsxc_ZNVJ2JY
+mermaid: true
 ---
 
 
 <div class="abstract">
 Action research is ... <em>"a form of self-reflective enquiry undertaken by participants in social situations in order to improve the rationality and justice of their own practices, their understanding of these practices, and the situations in which the practices are carried out.</em>" (Carr and Kemmis 1986: 162)
 </div>
+
 
 **Action Research** is also known as **practitioner research**, a research-oriented activity designed to improve current practice.  
 
@@ -116,19 +119,3 @@ Strictly speaking this is a cyclic, or spiral, endeavour and ideally collaborati
 </details>
 </details>
 </div>
-
-## Presented Slides  
-
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1Wcq8Oj8YkEWHkNDnOv2KB9AcZiaHWSucsxc_ZNVJ2JY/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
-## Resources
-
-
-## Downloads
-
-
-## Recommended Reading  
-
-- [How do I improve what I am doing? Action research as a means of promoting teachers’ professional development](https://school-education.ec.europa.eu/en/insights/tutorials/how-do-i-improve-what-i-am-doing-action-research-means-promoting-teachers)
-- [Action research – a way to improve your practice with collaboration between researchers and practitioners](https://school-education.ec.europa.eu/en/insights/news/action-research-way-improve-your-practice-collaboration-between-researchers-and)
-- [Creating a better world one action research project at a time](https://school-education.ec.europa.eu/en/insights/viewpoints/creating-better-world-one-action-research-project-time)

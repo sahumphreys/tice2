@@ -20,30 +20,25 @@
             </div>
             {% endif %}
             {{ content | safe }}
+
+            {% set moduleData = moduleData[title] %}
+            {% if moduleData.title %}
+            <!-- <p>{{ moduleData | dump }} {{ title }}</p> -->
+                <h1>Resources</h1>
+                {% if moduleData.slidesId %}
+                    <h3>Presented Slides</h3>
+                    {% embedGoogleSlides moduleData.slidesId %}
+                {% endif %}
+                {% if moduleData.readingResources %}
+                    <h3>Additional Reading</h3>
+                    <ul>
+                    {% for item in moduleData.readingResources %}
+                        <li><a href="{{item.url}}" target="_blank">{{ item.title }}</a></li>
+                    {% endfor %}
+                    </ul>
+                {% endif %}
+            {% endif %}
         </div>
     </div>
 </div>
-<!-- <div class="module-container">
-    <div class="sidebar">
-        <ul>
-            {% for module in modules %}
-            <li><a href="{{ module.url }}">{{ loop.index }} - {{ module.data.title }}</a></li>
-            {% endfor %}
-        </ul>    
-    </div>
-    
-    <div class="main-content">
-        <h1>{{ title }}</h1>
-        {% if bannerImage %}
-        <div class="module-header">
-            <div class="image-column">
-                <img src="{{ bannerImage }}" />
-            </div>
-        </div>
-        {% endif %}
-            
-        {{ content | safe }}
-    </div>
-    
-</div> -->
 {% endblock %}

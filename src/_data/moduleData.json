@@ -1,0 +1,102 @@
+{
+    "What is Action Research?": {
+        "title": "What is Action Research?",
+        "slidesId": "1Wcq8Oj8YkEWHkNDnOv2KB9AcZiaHWSucsxc_ZNVJ2JY",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {
+                "title": "How do I improve what I am doing? Action research as a means of promoting teachers’ professional development",
+                "url": "https://school-education.ec.europa.eu/en/insights/tutorials/how-do-i-improve-what-i-am-doing-action-research-means-promoting-teachers"
+            },
+            {
+                "title": "Action research - a way to improve your practice with collaboration between researchers and practitioners",
+                "url": "https://school-education.ec.europa.eu/en/insights/news/action-research-way-improve-your-practice-collaboration-between-researchers-and"
+            },
+            {
+                "title": "Creating a better world one action research project at a time",
+                "url": "https://school-education.ec.europa.eu/en/insights/viewpoints/creating-better-world-one-action-research-project-time"
+            }
+        ]
+    },
+    "The Research Process": {
+        "title": "The Research Process",
+        "slidesId": "1qfyhy5Ib2Pt37qnQrOeSanX4vKUzmFzPuoWV-H4Rq_4",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {
+                "title": "Practitioner Research for Teachers", 
+                "url": "/assets/docs/practitioner-research-for-teachers-ch5.pdf"
+            },
+            {
+                "title": "DIY Evaluation Guide", 
+                "url": "/assets/docs/EEF_DIY_Evaluation_Guide_(2013).pdf"
+            },
+            {
+                "title": "Understanding the research process",
+                "url": "/assets/docs/Understanding the research process.pdf"
+            }
+        ]
+    },
+    "Formulating the question": {
+        "title": "Formulating the question",
+        "slidesId": "1yXfq6VNdGjJLYx4-eFSeKjYIwaEiB_NQMu_CASM9GDE",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {
+                "title": "Resource 1", 
+                "url": "https://example.com/resource-1"
+            },
+            {
+                "title": "Resource 2", 
+                "url": "https://example.com/resource-2"
+            }
+        ]
+    },
+    "Planning the intervention": {
+        "title": "Planning the intervention",
+        "slidesId": "1Wcq8Oj8YkEWHkNDnOv2KB9AcZiaHWSucsxc_ZNVJ2JY",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {"title": "Resource 1", "url": "https://example.com/resource-1"},
+            {"title": "Resource 2", "url": "https://example.com/resource-2"}
+        ]
+    },
+    "Data Collection": {
+        "title": "Data Collection",
+        "slidesId": "1h64LR7VNUZA8v-HjHmhNyDCipQmdP_EPZ4EZo8f0KYk",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {
+                "title": "CS EdResearch", 
+                "url": "https://csedresearch.org/resources/evaluation-instruments/"
+            },
+            {
+                "title": "Designing a questionnaire", 
+                "url": "https://www.scribbr.com/methodology/questionnaire/"
+            },
+            {
+                "title": "Designing a questionnaire for a research paper", 
+                "url": "https://hal.science/hal-03741836v1/file/Designing%20a%20Questionnaire%20for%20a%20Research%20Paper%20A%20Comprehensive%20Guide%20to%20Design%20and%20Develop%20an%20Effective%20Questionnaire.pdf"
+            }
+        ]
+    },
+    "Data Analysis": {
+        "title": "Data Analysis",
+        "slidesId": "13ppieXC91z-TNFfJRAzGOmdlu6yXzWyaK94KfLFNpWw",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {"title": "Resource 1", "url": "https://example.com/resource-1"},
+            {"title": "Resource 2", "url": "https://example.com/resource-2"}
+        ]
+    },
+    "Writing Up": {
+        "title": "Writing Up",
+        "slidesId": "1kDfpEqnSc7kNN4d7aJGJqx75gUUAGO9bKGcdhyxVHZ8",
+        "webinarUrl": "https://example.com/webinar-module-1",
+        "readingResources": [
+            {"title": "Resource 1", "url": "https://example.com/resource-1"},
+            {"title": "Resource 2", "url": "https://example.com/resource-2"}
+        ]
+    }
+    
+}

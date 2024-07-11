@@ -217,20 +217,3 @@ Understanding the types of numeric data is crucial for selecting appropriate dat
 | Students' understanding of AI | Questionnaire | Pupil perseverance | Structured observations, personal teacher reflections |
 | Teacher workload | Workload log | Pupils' pattern seeking skills | Specifically designed data collection instrument |
 | Pupils' code comprehension | Classroom tasks/worksheets | Students' creativity | Look at Murcia (2020) A -E of children's creativity |
-
-
-## Presented Slides  
-<div class="video-container-16by9"><iframe src="https://docs.google.com/presentation/d/1h64LR7VNUZA8v-HjHmhNyDCipQmdP_EPZ4EZo8f0KYk/embed?start=false&loop=false&delayms=3000" frameborder="0" width=780" height="585" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe></div>
-
-
-## Supplementary Materials
-
-- [CS EdResearch](https://csedresearch.org/resources/evaluation-instruments/){target="_blank"} Find examples of tried and tested surveys and questionnaires
-- [Designing a questionnaire](https://www.scribbr.com/methodology/questionnaire/){target="_blank"}
-- [Designing a questionnaire for a research paper](https://hal.science/hal-03741836v1/file/Designing%20a%20Questionnaire%20for%20a%20Research%20Paper%20A%20Comprehensive%20Guide%20to%20Design%20and%20Develop%20an%20Effective%20Questionnaire.pdf){target="_blank"}
-
-## ACTIVITY
-
-
-
-## Required Reading  
