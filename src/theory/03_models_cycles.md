@@ -9,6 +9,8 @@ Action Research has evolved with various models that guide its process. Some of 
 
 ## Detailed Explanation of the Action Research Cycle
 
+![Action Research Cycle](/assets/images/actionresearchimage.gif)
+
 1. **Planning:** This stage involves identifying a problem or area of focus, formulating research questions, and developing a plan of action. It requires thorough preparation and setting clear, actionable objectives.
 2. **Acting:** The action phase is where the planned intervention is implemented. This could involve new teaching strategies, curriculum changes, or policy adjustments.
 3. **Observing:** During this phase, data is collected to monitor the effects of the intervention. This involves systematic observation, recording, and documentation of outcomes.

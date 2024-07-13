@@ -54,14 +54,54 @@ Taking the first topic, Enhancing Programming Skills as an example, one might ge
 - Professional mentoring
 - Using physical computing
 - ...
-
+ 
 ### Concept Mapping
 
 The [concept map](https://en.wikipedia.org/wiki/Concept_map) is an associated technique that draws out the connections between concepts in a topic.  Here key concepts are identified and systematically arranged to illustrate the relationships.
 
 For example, with the topic **Enhancing Programming Skills** one might come up with:
 
-![](/assets/images/enhancing_programming_skills_cm.jpg)
+<!-- ![](/assets/images/enhancing_programming_skills_cm.jpg) -->
+```mermaid
+mindmap
+  root(**Enhancing Programming Skills**)
+    Learning Methods
+      Formal Education
+      Online Courses
+      Bootcamps
+      Self-Study
+      Mentorship
+    Practice Techniques
+      Coding Challenges
+      Projects
+      Open Source Contributions
+      Pair Programming
+      Code Reviews
+    Tools and Resources
+      Integrated Development Environments (IDEs)
+      Version Control Systems
+      Debugging Tools
+      Documentation
+      Programming Communities
+    Programming Languages
+      Python
+      JavaScript
+      Java
+      C++
+      Others
+    Advanced Topics
+      Data Structures and Algorithms
+      Design Patterns
+      Software Architecture
+      Performance Optimization
+      Security
+    Soft Skills
+      Problem-Solving
+      Critical Thinking
+      Collaboration
+      Communication
+      Time Management
+```
 
 Other concepts maps are available [here](/pages/concept_maps/concept_map)
 
@@ -83,23 +123,23 @@ If, as part of your search, you encounter an academic paper you would like to re
 
 Once you have gathered enough knowledge on the topic you want to pursue, you can start focusing on a more specific area of study and narrowing down a research question.
 
-There are some useful approaches, additional questions, here that can help you arrive at the final question to be researched e.g.
+There are some useful approaches, additional questions, here that can help you arrive at the final question to be researched e.g. FINER
 
-- Feasible:  Do you have enough time to complete the research?  Is the question within your own ability?
-- Interesting: Is this of interest to you?  Will it be of interest to others?
-- Novel: Will the question bring new insights?  To you?  To others?
-- Ethical: Is is appropriate?
-- Relevant: Is it relevant to your professional development?  To your department colleagues and school?  To the wider community?
+- **F**easible:  Do you have enough time to complete the research?  Is the question within your own ability?
+- **I**nteresting: Is this of interest to you?  Will it be of interest to others?
+- **N**ovel: Will the question bring new insights?  To you?  To others?
+- **E**thical: Is is appropriate?
+- **R**elevant: Is it relevant to your professional development?  To your department colleagues and school?  To the wider community?
 
 ## Structuring your question
 
 A framework can help here.  One of the most popular is the PICOT framework:
 
-- Population: Describes the group of students being studied.  Who will be the subjects?  Which age of student?  Any other characteristics e.g. gender, ethnicity etc..
-- Intervention: Specifies the action or strategy being implemented to address the problem perhaps a new teaching tool or method.
-- Comparison: Describes what your intervention will be compared with/to eg. project-based learning vs lecture-based instruction
-- Outcome: Defines the desired result or what you hope to achieve such as improvements in student performance, engagement or understanding
-- Time: Specifies the time frame over which the intervention and outcomes will be measured.
+- **P**opulation: Describes the group of students being studied.  Who will be the subjects?  Which age of student?  Any other characteristics e.g. gender, ethnicity etc..
+- **I**ntervention: Specifies the action or strategy being implemented to address the problem perhaps a new teaching tool or method.
+- **C**omparison: Describes what your intervention will be compared with/to eg. project-based learning vs lecture-based instruction
+- **O**utcome: Defines the desired result or what you hope to achieve such as improvements in student performance, engagement or understanding
+- **T**ime: Specifies the time frame over which the intervention and outcomes will be measured.
 
 For example, you may be interested in the use of [PRIMM](https://primmportal.com) and a first stab at your question might be:
 
@@ -109,11 +149,11 @@ Looking at the headings above, how might this be improved?
 
 - Population:
 
-> Does using PRIMM for Year 8 help program comprehension?
+> Does using PRIMM *for Year 8* help program comprehension?
 
 - Intervention:
 
-> Does using a targeted predict exercise at the beginning of Year 8 programming lessons help program comprehension?
+> Does using *a targeted predict exercise* at the beginning of Year 8 programming lessons help program comprehension?
 
 - Comparison:
 
@@ -121,21 +161,36 @@ Looking at the headings above, how might this be improved?
 
 - Outcome:
 
-> Does using a targeted predict exercise at the beginning of year 8 programming lessons help my students explain their programs orally during the lesson?
+> Does using a targeted predict exercise at the beginning of year 8 programming lessons *help my students explain their programs orally* during the lesson?
 
 - Time:
 
-> Does using a targeted predict exercise at the beginning of year 8 programming lessons for 4 weeks help my students explain their programs orally during the lesson?
+> Does using a targeted predict exercise at the beginning of year 8 programming lessons *for 4 weeks* help my students explain their programs orally during the lesson?
+
 
 ## Summary
 
-Developing the right research question is a critical first step in the research process. 
+There are a number of sources of inspiration for developing action research questions. Thinking about problems you would like to solve in your classroom or school, talking with your colleagues and students, attending conferences, and reading the literature can all be helpful. Coming up with a good research question for action research takes time and effort but the reward is more manageable and meaningful research.
 
-- The development of a research question is an iterative process that involves continuously updating one’s knowledge on the topic and refining ideas at all stages.
-- Keep updated on the topic you are researching
-- Use brainstorming and concept mapping to get an overview of your topic
-- Make the research question as specific and concise as possible to ensure clarity. Use a framework such as PICOT to help.
-- Aside from doing a literature review, seek the input of experts in the field, mentors, and colleagues. 
+**Good action research questions:**
+
+- are significant and can lead to better teaching and more successful students,
+- are manageable and can be completed in the context of a busy job,
+- address problems that are relevant, interesting, and meaningful to you,
+- are higher order questions that seek explanations, relationships, and reasons, and
+- lead to other questions and expand your perspective.
+
+**Suggestions for developing questions:**
+
+- Don't work in isolation. Talk with other teachers, administrators, and students to identify areas you might investigate. You can also read examples of what other teachers have researched.
+- Keep a record of interesting observations or questions you have over several weeks and use these as a source of ideas.
+- Review educational theories and conceptual frameworks to give you a broad perspective.
+
+**Poor questions for action research:**
+
+- focus on what is already known and available in the literature,
+- try to "prove" an idea or theory rather than develop an understanding based on the data, or only attempt to find a "yes" or "no" answer to a question.
+
 
 ## Questions
 
